@@ -1,0 +1,17 @@
+# Aprašymas:
+# Šis Bash skriptas skirtas slaptažodžių stiprumo analizei. 
+# Galite tikrinti slaptažodžius iš failo arba rankiniu būdu įvestus slaptažodžius. 
+# Skriptas taip pat pateikia pasiūlymus slaptažodžio stiprinimui.
+#
+# Failai:
+# - `passwords.txt`: slaptažodžių sąrašas analizei.
+# - `common_words.txt`: failas su populiariais žodžiais, kurie gali būti slaptažodžių dalis.
+#
+# Naudojimas:
+# Pasirinkite meniu veiksmą:
+# 1. Analizuoti slaptažodžius iš failo.
+# 2. Rankiniu būdu įvesti slaptažodį analizei.
+# 3. Išeiti.
+#
+# Kiekvienas slaptažodis bus įvertintas pagal ilgį, sudėtingumą, turimus simbolius 
+# ir patikrintas dėl populiarių žodžių buvimo.
